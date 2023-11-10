@@ -13,6 +13,7 @@ For this session, we'll learn control randomisation.
 - [Projects](#project)
   - Randomisation
   - Heads or tails
+  - Nested list
 - [What you'll learn](#what-youll-learn)
 
 - Useful resources :
@@ -145,6 +146,8 @@ new_module.say_hello()
 ```
 
 ## What you'll learn
+
+Create a module, working with nested list, create functions and scope of variables.
 
 ---
 
