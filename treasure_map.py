@@ -10,17 +10,16 @@ print("Hiding your treasure! X marks the spot")
 position = input()
 
 for index, line in enumerate(map):
-    for i, place  in enumerate(line):
-        if position[0].capitalize() == 'A' and i+1 == int(position[1]):
+    for i, place in enumerate(line):
+        if position[0].capitalize() == 'A' and i + 1 == int(position[1]):
             line1[i] = 'X'
-        elif position[0].capitalize() == 'B' and i+1 == int(position[1]):
+        elif position[0].capitalize() == 'B' and i + 1 == int(position[1]):
             line2[i] = 'X'
-        elif position[0].capitalize() == 'C' and i+1 == int(position[1]):
+        elif position[0].capitalize() == 'C' and i + 1 == int(position[1]):
             line3[i] = 'X'
         # else: 
         #     print("Invalid position")
         #     exit(0)
-
 
 print(f'Treasure hidden!\n{line1}\n{line2}\n{line3}')
 
